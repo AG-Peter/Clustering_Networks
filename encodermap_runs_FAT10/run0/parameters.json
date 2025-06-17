@@ -1,0 +1,83 @@
+{
+    "activation_functions": [
+        "",
+        "tanh",
+        "tanh",
+        ""
+    ],
+    "analysis_path": "",
+    "auto_cost_scale": 1,
+    "auto_cost_variant": "mean_abs",
+    "batch_size": 256,
+    "batched": true,
+    "center_cost_scale": 0.0001,
+    "checkpoint_step": 5000,
+    "defaults": {
+        "activation_functions": [
+            "",
+            "tanh",
+            "tanh",
+            ""
+        ],
+        "analysis_path": "",
+        "auto_cost_scale": 1,
+        "auto_cost_variant": "mean_abs",
+        "batch_size": 256,
+        "batched": true,
+        "center_cost_scale": 0.0001,
+        "checkpoint_step": 5000,
+        "dist_sig_parameters": [
+            4.5,
+            12,
+            6,
+            1,
+            2,
+            6
+        ],
+        "distance_cost_scale": 500,
+        "gpu_memory_fraction": 0,
+        "id": "",
+        "l2_reg_constant": 0.001,
+        "learning_rate": 0.001,
+        "loss": "emap_cost",
+        "model_api": "sequential",
+        "n_neurons": [
+            128,
+            128,
+            2
+        ],
+        "n_steps": 100000,
+        "periodicity": 6.283185307179586,
+        "seed": null,
+        "summary_step": 10,
+        "tensorboard": false,
+        "training": "auto"
+    },
+    "dist_sig_parameters": [
+        1.1,
+        6,
+        6,
+        1,
+        2,
+        6
+    ],
+    "distance_cost_scale": 500,
+    "gpu_memory_fraction": 0,
+    "id": "",
+    "l2_reg_constant": 1e-05,
+    "learning_rate": 1e-05,
+    "loss": "emap_cost",
+    "main_path": "encodermap_runs_FAT10/run0",
+    "model_api": "sequential",
+    "n_neurons": [
+        128,
+        128,
+        2
+    ],
+    "n_steps": 25000,
+    "periodicity": Infinity,
+    "seed": null,
+    "summary_step": 10,
+    "tensorboard": false,
+    "training": "auto"
+}
