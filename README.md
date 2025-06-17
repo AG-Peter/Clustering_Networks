@@ -1,4 +1,7 @@
 # Clustering_Networks
 
-This repository accompanies the paper "Clustering and Analyzing Ensembles of Residue Interaction Networks from Molecular Dynamics Simulations" which is available as a ChemRxiv preprint at [10.26434/chemrxiv-2025-87rgw](https://chemrxiv.org/engage/chemrxiv/article-details/68430481c1cb1ecda0e41722). 
-The molecular dynamics simulation data for the analysis is provided at the data repository KonDATA at [https://kondata.uni-konstanz.de/radar/en/dataset/3cfgepqn57tyy57s?token=FZNgtAakzPUFyXfexWXY](https://kondata.uni-konstanz.de/radar/en/dataset/3cfgepqn57tyy57s?token=FZNgtAakzPUFyXfexWXY).  
+This repository accompanies the paper "Clustering and Analyzing Ensembles of Residue Interaction Networks from Molecular Dynamics Simulations".
+
+The molecular dynamics simulation data for the analysis is provided at the data repository KonDATA.
+
+The analysis is performed in jupyter notebooks, which are named sequentially in the order of execution and in the order presented in the paper. The code to create the arcdiagrams for visualizing consensus and difference graphs can be found in the folder Arcdiagrams, along with the additional environment required for using R and python. 
